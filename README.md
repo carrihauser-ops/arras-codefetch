@@ -9,9 +9,20 @@ I highly recommend you implement better stuff on this instead of just using it f
 - 4. Run bot.cmd
 - 5. Your bot is now fully settedup.
 # Commands Usage
+
 ## Basic
+
 <prefix>help - Shows a list of commands
 <prefix>advanced - Shows a list of commands related to arras.io team codes
-<prefix>say <channel id> - Bot sends a message in the designated channel by using the channel id
+<prefix>say <channel id> - Bot sends a message in the designated channel by using the channel id, owner only
 <prefix>ping - Shows bot's latency
-<prefix>
+
+## Advanced
+
+<prefix>svstat/lb <squad id> - Scrapes leaderboard, shows when the arena will close and when did it open, shows what the server's mspt is
+<prefix>ssl - Shows how many the server has invited the bot in
+<prefix>st - Forcestops the scraping in the middle if a error has occured, owner only
+<prefix>tf <squad id> - Scrapes the team codes of a mode
+<prefix>tfcheck - Check if a proxy is alive against through arras endpoints
+# Misc
+Credits are especially given to me and tristam, no one else.
