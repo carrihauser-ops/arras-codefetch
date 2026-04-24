@@ -1,0 +1,21 @@
+{
+  "name": "arras-follow-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "https-proxy-agent": "^7.0.6",
+    "msgpack-lite": "^0.1.26",
+    "msgpackr": "^1.11.4",
+    "node-fetch": "^3.3.2",
+    "socks-proxy-agent": "^8.0.5",
+    "ws": "^8.18.2"
+  }
+}
